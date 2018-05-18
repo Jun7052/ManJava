@@ -10,7 +10,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		String[] man = new String[5];
 		
-		System.out.print("팀원 중 한분의 입력해주세요>> ");
+		System.out.print("점심 먹고싶다 ");
 		String s = sc.next();
 
 
