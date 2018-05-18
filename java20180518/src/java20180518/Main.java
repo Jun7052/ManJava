@@ -10,7 +10,10 @@ public class Main {
 		System.out.print("자신의 이름을 입력해주세요>> ");
 		String s = sc.next();
 		
-		System.out.println("잘했어 ㅎㅎ");
+		System.out.println("굿 잘했어 ㅎㅎ");
+		
+		
+		
 
 		
 
