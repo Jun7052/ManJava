@@ -6,15 +6,14 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		String[] man = new String[5];
 		
-		System.out.print("자신의 이름을 입력해주세요>> ");
+		System.out.print("팀원 중 한분의 입력해주세요>> ");
 		String s = sc.next();
 		
-		System.out.println("굿 잘했어 ㅎㅎ");
 		
-		for(int i =0; i<5; i++) {
-			System.out.println(i);
-		}
+		System.out.println("Good!");
+		
 		
 
 		
