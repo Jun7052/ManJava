@@ -14,7 +14,10 @@ public class Main {
 		
 		System.out.println("±Â ÀßÇß¾î ¤¾¤¾");
 		
-		
+
+		for(int i =0; i<5; i++) {
+			System.out.println(i);
+		}
 		
 
 	}
