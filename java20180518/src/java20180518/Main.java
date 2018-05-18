@@ -8,11 +8,11 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		ArrayList<Person> arr = new ArrayList<>();
+		boolean btn = true;
 		
 		System.out.print("<<Soja Club>>");
 		
-		
-		while(true) {
+		while(btn) {
 			System.out.print("[1]가입 [2]수정 [3]목록 [4]종료 >>");
 			int choice = sc.nextInt();
 			
@@ -24,6 +24,7 @@ public class Main {
 				System.out.print("주량 : ");
 				int input_soju = sc.nextInt();
 				System.out.println(input_name+"님이 추가되었습니다.");
+				System.out.println();
 				
 				Person pr = new Person(input_name, input_soju);
 				arr.add(pr);
@@ -34,6 +35,7 @@ public class Main {
 			case 3:
 				break;
 			case 4 :
+				btn = false;
 				break;
 
 			default:
